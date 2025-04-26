@@ -1,0 +1,79 @@
+body{
+    margin: 0;                
+    padding: 0;               
+    background: #a8a6a6;       
+    font-family: Arial, sans-serif;
+    display: flex;            
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh; 
+}
+.ld_Esquerdo{
+    background: #44c8fc;         
+    padding: 20px;                
+    width: 200px;                 
+    height: 350px;
+    display: flex;     
+    flex-direction: column;              
+    text-align: center;
+}
+.ld_Esquerdo h1{
+    font-family: 'Comic Neue', cursive;
+    font-size: 27px;
+}
+.ld_Esquerdo p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.ld_Esquerdo h5{
+    margin-top: 115px;
+}
+
+.ld_Direito{
+    background: #f8f5f5;         
+    padding: 20px;                
+    width: 350px;                 
+    height: 350px;
+    display: flex;    
+    flex-direction: column;               
+    text-align: center;
+    align-items: center;   
+}
+.ld_Direito p{
+    margin-top: 5px;
+    font-size: 12.5px;
+}
+video{
+    width: 350px;
+}
+.Matematica{
+    padding: 10px;      
+    border: none;           
+    text-align: center;
+    border-radius: 4px;        
+    background: #0084ff;       
+    color: #ffffff;             
+    font-weight: bold;           
+    cursor: pointer;           
+    text-decoration: none;
+    margin-top: 20px;
+}
+.Matematica:hover{
+    background-color: #155b9c
+}
+.Portugues{
+    padding: 10px;           
+    border: none;               
+    text-align: center;
+    border-radius: 4px;          
+    background: #0084ff;         
+    color: #ffffff;              
+    font-weight: bold;           
+    cursor: pointer;            
+    text-decoration: none;
+    margin-top: 10px;
+}
+.Portugues:hover{
+    background-color: #155b9c;
+}
