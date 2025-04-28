@@ -1,0 +1,99 @@
+body{
+    margin: 0;                
+    padding: 0;               
+    background: #ffffff;       
+    font-family: Arial, sans-serif;
+    display: flex;            
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh; 
+}
+.Escolha{
+    background: #44c8fc;   
+    color: rgb(0, 0, 0);
+    padding: 20px;                
+    width: 500px;                 
+    height: 350px;
+    display: flex;     
+    flex-direction: column;              
+    text-align: center;
+}
+.Escolha h1{
+    margin-top: 5px;
+    font-size: 40px;
+}
+.FormasGeometricas{
+    padding: 10px;      
+    border: none;           
+    text-align: center;
+    border-radius: 4px;        
+    background: #fcfcfc;       
+    color: #020303;             
+    font-weight: bold;           
+    cursor: pointer;           
+    text-decoration: none;
+    margin-top: 20px;
+}
+.FormasGeometricas:hover{
+    background-color: #c3d5e6
+}
+.ContandoNumeros{
+    padding: 10px;      
+    border: none;           
+    text-align: center;
+    border-radius: 4px;        
+    background: #fcfcfc;       
+    color: #020303;             
+    font-weight: bold;           
+    cursor: pointer;           
+    text-decoration: none;
+    margin-top: 5px;
+}
+.ContandoNumeros:hover{
+    background-color: #c3d5e6;
+}
+.OrganizandoNumeros{
+    padding: 10px;      
+    border: none;           
+    text-align: center;
+    border-radius: 4px;        
+    background: #fcfcfc;       
+    color: #020303;             
+    font-weight: bold;           
+    cursor: pointer;           
+    text-decoration: none;
+    margin-top: 5px;
+}
+.OrganizandoNumeros:hover{
+    background-color: #c3d5e6;
+}
+.NumeroAnterior{
+    padding: 10px;      
+    border: none;           
+    text-align: center;
+    border-radius: 4px;        
+    background: #fcfcfc;       
+    color: #020303;             
+    font-weight: bold;           
+    cursor: pointer;           
+    text-decoration: none;
+    margin-top: 5px;
+}
+.NumeroAnterior:hover{
+    background-color: #c3d5e6;
+}
+.LigueNoNumero{
+    padding: 10px;      
+    border: none;           
+    text-align: center;
+    border-radius: 4px;        
+    background: #fcfcfc;       
+    color: #020303;             
+    font-weight: bold;           
+    cursor: pointer;           
+    text-decoration: none;
+    margin-top: 5px;
+}
+.LigueNoNumero:hover{
+    background: #c3d5e6;
+}
