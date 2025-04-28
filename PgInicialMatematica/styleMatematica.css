@@ -32,7 +32,7 @@ body{
     font-weight: bold;           
     cursor: pointer;           
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: -10px;
 }
 .FormasGeometricas:hover{
     background-color: #c3d5e6
@@ -95,5 +95,21 @@ body{
     margin-top: 5px;
 }
 .LigueNoNumero:hover{
+    background: #c3d5e6;
+}
+.Voltar{
+    padding: 10px;           
+    border: none;               
+    text-align: center;
+    border-radius: 4px;          
+    background: #fcfcfc;         
+    color: #020303;              
+    font-weight: bold;           
+    cursor: pointer;            
+    text-decoration: none;
+    margin-top: 5px;
+    width: 100px;
+}
+.Voltar:hover{
     background: #c3d5e6;
 }
